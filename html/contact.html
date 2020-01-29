@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href="../css/contact.css" type="text/css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+          <header>
+            <div class="container1">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./graphics.html">Graphics</a></li>
+                        <li><a href="./videos.html">Videos</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="TopIcons">
+                <img src="../icons/LinkedIn.png" alt="linkedin" class="linkedin"/>
+                <img src="../icons/youtube.png" alt="facebook" class="youtube"/>
+                <img src="../icons/insta.png" alt="twitter" class="insta"/>
+                <img src="../icons/twitter.png" alt="youtube" class="twitter"/>
+            </div>
+        </header>
+            <div class="title">Contact</div>
+            <div class="container">
+            <div class="wrapper">
+                <div class="company-info">
+                    <h3>Luca Mattia</h3>
+                    <ul>
+                        <li> (604) 618-6220</li>
+                        <li> lucamat1997@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Email Me</h3>
+                    <div class="alert">Your message has been sent!</div>
+                    <form id="contactForm">
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" autocomplete="off" id="name" required>
+                        </p>
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="name" autocomplete="off" id="company">
+                        </p>
+                        <p>
+                            <label>Email Address</label>
+                            <input type="email" name="name" autocomplete="off" id="email" required>
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="name" autocomplete="off" id="phone">
+                        </p>
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" id="message"></textarea>
+                        </p>
+                        <p class="full">
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            </div>
+        
+        <div id="bottomNav">
+            <div class="iconRow">
+                <img src="../icons/LinkedIn.png" class="linkedinBN" id="icons" alt="facebook">
+                <img src="../icons/youtube.png" class="youtubeBN" id="icons" alt="youtube">
+                <img src="../icons/insta.png"  class="instagramBN" id="icons" alt="instagram">
+                <img src="../icons/twitter.png" class="twitterBN" id="icons" alt="twitter">
+            </div>
+        </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/app.js"></script>
+    </body>
+    
+</html>

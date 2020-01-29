@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333333;
+    height: 100px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3vw;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: azure;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:  all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* ICONS */
+
+.TopIcons {
+    display:flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-right: 2vw;
+    padding-top: 2.5vh;
+}
+
+.linkedin {
+    height: 45px;
+    margin-right: 20px;
+}
+
+.youtube {
+    height: 45px;
+    margin-right: 20px;
+}
+
+.insta {
+    height: 45px;
+    margin-right: 20px;
+}
+
+.twitter {
+    height: 45px;
+    margin-right: 20px;
+}
+
+.background{
+    display: flex;
+}
+
+/* BODY */
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+    color: #333333;
+    text-align: center;
+    padding: 5vh
+}
+
+.program {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    color: #333333;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+}
+
+.designs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.designsBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+
+.ProjectBox {
+    width: 30%;
+    height: 30%;
+    padding: 1vw;
+}
+
+.project {
+    height: 100%;
+    width: 100%;
+}
+
+/* PROJECTS FOR JS INTERACTIONS */
+
+#MyWorld {
+    opacity: 1;
+}
+
+#GibsonES355 {
+    opacity: 1;
+}
+
+#SmilinBuddha {
+    opacity: 1;
+}
+
+#SwissStyle {
+    opacity: 1;
+}
+
+#Fishies {
+    opacity: 1;
+}
+
+#JamRoom {
+    opacity: 1;
+}
+
+#Miles {
+    opacity: 1;
+}
+
+#OldPhoto {
+    opacity: 1;
+}
+
+#Zombies {
+    opacity: 1;
+}
+
+#Jesus {
+    opacity: 1;
+}
+
+#TheHermit {
+    opacity: 1;
+}
+
+#Bilbo {
+    opacity: 1;
+}
+
+
+
+/* PROJECT PREVIEW */
+
+#PreviewContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#close {
+    height: 4.5vw;
+    margin: 5vw;
+    opacity: 1;
+    display: flex;
+}
+
+#preview {
+    height: 0vw;
+    width: 0vw;
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-position: top 5vw right 50%;
+    background-size: 70%;
+    transition: 1s;
+}
+
+#VideoContainer {
+    display: flex;
+    justify-content: center;
+}
+#video {
+    height: 0vw;
+    width: 0vw;
+    position: absolute;
+    padding-top: 5vw;
+    transition: 1s;
+    display: block;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    padding-right: 2.5vw;
+    display: none;
+    padding-top: 24vw;
+    padding-bottom: 5%;
+}
+
+#restored {
+    background-color: #92bde7;
+    height: 3vw;
+    width: 10vw;
+    padding: 10px;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    align-items: center;
+}
+
+#original {
+    background-color: white;
+    height: 3vw;
+    width: 10vw;
+    padding: 10px;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    align-items: center;
+}
+
+#description {
+    display: none;
+}
+
+#ProjectTitle {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+#ProjectDescription {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 0vw;
+    padding: 4vw;
+    transition: 1s;
+}
+
+.caption{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    text-align: center;
+}
+
+
+
+/* BOTTOM NAV */
+
+.bottomNav {
+    background-color: #333333;
+    position: relative;
+}
+
+.linkedinBN {
+    width: 45px;
+    height: 45px;
+}
+
+.youtubeBN {
+    width: 45px;
+    height: 45px;
+}
+
+.instagramBN {
+    width: 45px;
+    height: 45px;
+}
+
+.twitterBN {
+    width: 45px;
+    height: 45px;
+}
+
+.iconRow {
+    display: flex;
+    justify-content: center;
+    height: 93px;
+
+}
+
+#icons {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+@media screen and (max-width: 850px){
+    
+    .TopIcons {
+        display: none;
+    }
+    
+    nav {
+        float: none;
+    }
+    
+    nav a {
+        text-align: center;
+        font-size: 12pt;
+    }
+}
