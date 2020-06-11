@@ -1,7 +1,8 @@
 // PROJECTS //
 
-var TheDrive = document.querySelector("#TheDrive"),
+var Eagleson = document.querySelector("#Eagleson"),
     QuestVitamins = document.querySelector("#QuestVitamins"),
+    TheDrive = document.querySelector("#TheDrive"),
     Jesus = document.querySelector("#Jesus"),
     TheHermit = document.querySelector("#TheHermit"),
     Bilbo = document.querySelector("#Bilbo");
@@ -12,6 +13,8 @@ var TheDrive = document.querySelector("#TheDrive"),
 var preview = document.querySelector("#preview"),
     PreviewContainer = document.querySelector("#PreviewContainer"),
     close = document.querySelector("#close"),
+    left = document.querySelector("#left"),
+    right = document.querySelector("#right"),
     buttons = document.querySelector("#buttons"),
     original = document.querySelector("#original"),
     restored = document.querySelector("#restored");
@@ -23,6 +26,63 @@ var video = document.querySelector("#video");
 var description = document.querySelector("#description"),
     ProjectTitle = document.querySelector("#ProjectTitle"),
     ProjectDescription = document.querySelector("#ProjectDescription");
+
+
+// EAGLESON //
+
+Eagleson.addEventListener("mouseover", function(){
+    Eagleson.style.opacity = 0.5;
+});
+Eagleson.addEventListener("mouseout", function(){
+    Eagleson.style.opacity = 1;
+});
+
+Eagleson.addEventListener("click", function(){
+    preview.style.height = "65vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "";
+    video.style.height = "36.5vw";
+    video.style.width = "65vw";
+    video.src = "https://www.youtube.com/embed/Sl9DKIpOb7U";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "Eagleson Properties";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "Eagleson Properties is a local property management company that I had the pleasure of working as an intern with.  My job was to film exterior drone footage of properties and interior footage with a DSLR camera. I would then edit all of the shots in Adobe Premiere adding transitions, music and text. I really enjoyed capturing footage of the properties and displaying all of the small details that make each home unique and welcoming. My supervisors at Eagleson were delighted with the end result and had many positive things to say about my enthusiasm, self reliance and the quality of my work.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+// QUEST VITAMINS //
+
+QuestVitamins.addEventListener("mouseover", function(){
+    QuestVitamins.style.opacity = 0.5;
+    
+});
+QuestVitamins.addEventListener("mouseout", function(){
+    QuestVitamins.style.opacity = 1;
+});
+
+QuestVitamins.addEventListener("click", function(){
+    preview.style.height = "65vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "";
+    video.style.height = "36.5vw";
+    video.style.width = "65vw";
+    video.src = "https://www.youtube.com/embed/4hwJzHH5OdY";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "Quest Vitamins";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "Quest Vitamins is local natual health products brand that was seeking a promotional video for use in expanding their overseas market.  For this project, I attended the Canadian Health Food Association Trade Show and interviewed and filmed Quest's key personnel, clients, and business partners.  I then created a storyline and used archival photographs as well as the footage that I captured from the convention to show the past, present, and future of the brand. I incorperated text animations and captions using Adobe After Effects and edited the final product in Adobe Premiere. Additionally, I wrote and recorded original music to accompany the video.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
 
 // THE DRIVE //
 
@@ -46,34 +106,6 @@ TheDrive.addEventListener("click", function(){
     ProjectTitle.innerHTML = "The Drive Coffee Bar";
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "The Drive Coffee Bar on Commercial Drive and 1st Avenue is a great local coffee bar owned by Kenny Vannucci. The bar has a really interesting story and it was a pleasure creating this mini documentary for Kenny explaining the origins of this wonderfully unique and successful neighborhood bar.  For this project, I filmed and interviewed Kenny at the bar and edited the final product in Adobe Premiere.  I used original photos along with photos that can be found on their website.  Be sure to stop by for a cup of coffee!";
-    ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
-    close.style.display = "flex";
-    window.scrollTo({ top: 311, behavior: 'smooth' });
-});
-
-
-// QUEST VITAMINS //
-QuestVitamins.addEventListener("mouseover", function(){
-    QuestVitamins.style.opacity = 0.5;
-    
-});
-QuestVitamins.addEventListener("mouseout", function(){
-    QuestVitamins.style.opacity = 1;
-});
-
-QuestVitamins.addEventListener("click", function(){
-    preview.style.height = "65vw";
-    preview.style.width = "94vw";
-    preview.style.backgroundImage = "";
-    video.style.height = "36.5vw";
-    video.style.width = "65vw";
-    video.src = "https://www.youtube.com/embed/4hwJzHH5OdY";
-    description.style.display = "block";
-    description.style.paddingTop = "30vw";
-    ProjectTitle.innerHTML = "Quest Vitamins";
-    ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "Quest Vitamins is local natual health products brand that was seeking a promotional video for use in expanding their overseas market.  For this project, I attended the Canadian Health Food Association Trade Show and interviewed and filmed Quest's key personnel, clients, and business partners.  I then created a storyline and used archival photographs as well as the footage that I captured from the convention to show the past, present, and future of the brand. I incorperated text animations and captions using Adobe After Effects and edited the final product in Adobe Premiere. Additionally, I wrote and recorded original music to accompany the video.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
@@ -185,3 +217,67 @@ close.addEventListener("mouseover", function(){
 close.addEventListener("mouseout", function(){
     close.style.opacity = 1;
 });
+
+
+// LEFT & RIGHT ICON PREVIEW //
+
+left.addEventListener("mouseover", function(){
+    left.style.opacity = 0.5;
+});
+left.addEventListener("mouseout", function(){
+    left.style.opacity = 1;
+});
+
+right.addEventListener("mouseover", function(){
+    right.style.opacity = 0.5;
+});
+right.addEventListener("mouseout", function(){
+    right.style.opacity = 1;
+});
+
+right.addEventListener("click", function(){
+    if (video.src == "https://www.youtube.com/embed/Sl9DKIpOb7U"){
+        video.src = "https://www.youtube.com/embed/zrtzlHnVEcI"
+    } else if (
+        video.src == "https://www.youtube.com/embed/zrtzlHnVEcI"){
+        video.src = "https://www.youtube.com/embed/h-8Eghxk2lQ"
+    } else if (
+        video.src == "https://www.youtube.com/embed/h-8Eghxk2lQ"){
+        video.src = "https://www.youtube.com/embed/AsM67Lt6ADw"
+    } else if (
+        video.src == "https://www.youtube.com/embed/AsM67Lt6ADw"){
+        video.src = "https://www.youtube.com/embed/WxFNqFpXTSg" 
+    } else if (
+        video.src == "https://www.youtube.com/embed/WxFNqFpXTSg"){
+        video.src = "https://www.youtube.com/embed/bch5mKn0Djo"
+    } else if (
+        video.src == "https://www.youtube.com/embed/bch5mKn0Djo"){
+        video.src = "https://www.youtube.com/embed/lvpOJ8oQoCo"
+    } else {
+        video.src = "https://www.youtube.com/embed/Sl9DKIpOb7U"
+    }
+});
+
+left.addEventListener("click", function(){
+    if (video.src == "https://www.youtube.com/embed/Sl9DKIpOb7U"){
+        video.src = "https://www.youtube.com/embed/lvpOJ8oQoCo"
+    } else if (
+        video.src == "https://www.youtube.com/embed/lvpOJ8oQoCo"){
+        video.src = "https://www.youtube.com/embed/bch5mKn0Djo"
+    } else if (
+        video.src == "https://www.youtube.com/embed/bch5mKn0Djo"){
+        video.src = "https://www.youtube.com/embed/WxFNqFpXTSg"
+    } else if (
+        video.src == "https://www.youtube.com/embed/WxFNqFpXTSg"){
+        video.src = "https://www.youtube.com/embed/AsM67Lt6ADw"
+    } else if (
+        video.src == "https://www.youtube.com/embed/AsM67Lt6ADw"){
+        video.src = "https://www.youtube.com/embed/h-8Eghxk2lQ"
+    } else if (
+        video.src == "https://www.youtube.com/embed/h-8Eghxk2lQ"){
+        video.src = "https://www.youtube.com/embed/zrtzlHnVEcI"
+    } else {
+        video.src = "https://www.youtube.com/embed/Sl9DKIpOb7U"
+    }
+});
+    
