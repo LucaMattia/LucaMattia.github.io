@@ -11,24 +11,20 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-
 header {
     font-family: 'Raleway', sans-serif;
     background-color: #333333;
     height: 100px;
 }
-
 header::after {
     content: '';
     display: table;
     clear: both;
 }
-
 nav {
     float: left;
     
 }
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -37,7 +33,6 @@ nav ul {
     text-align: center;
     align-items: center;
 }
-
 nav li {
     display: inline-block;
     margin-left: 3vw;
@@ -45,14 +40,12 @@ nav li {
     padding-bottom: 30px;
     position: relative;
 }
-
 nav a {
     color: azure;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16pt;
 }
-
 nav a::before {
     content: '';
     display: block;
@@ -63,7 +56,6 @@ nav a::before {
     width: 0%;
     transition:  all ease-in-out 250ms;
 }
-
 nav a:hover::before {
     width: 100%;
 }
@@ -78,27 +70,22 @@ nav a:hover::before {
     padding-right: 2vw;
     padding-top: 2.5vh;
 }
-
 .linkedin {
     height: 45px;
     margin-right: 20px;
 }
-
 .youtube {
     height: 45px;
     margin-right: 20px;
 }
-
 .insta {
     height: 45px;
     margin-right: 20px;
 }
-
 .twitter {
     height: 45px;
     margin-right: 20px;
 }
-
 .background{
     display: flex;
 }
@@ -112,7 +99,6 @@ nav a:hover::before {
     text-align: center;
     padding: 5vh
 }
-
 .program {
     font-family: 'Raleway', sans-serif;
     font-size: 3vw;
@@ -121,20 +107,17 @@ nav a:hover::before {
     padding-bottom: 3vh;
     padding-left: 3vw;
 }
-
 .designs {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-
 .ProjectBox {
     width: 30%;
     height: 30%;
     padding: 1vw;
 }
-
 .project {
     height: 100%;
     width: 100%;
@@ -142,26 +125,24 @@ nav a:hover::before {
 
 /* PROJECTS FOR JS INTERACTIONS */
 
+#Eagleson {
+    opacity: 1;
+}
 #TheDrive {
     opacity: 1;
 }
-
 #QuestVitamins {
     opacity: 1;
 }
-
 #none {
     opacity: 1;
 }
-
 #Jesus {
     opacity: 1;
 }
-
 #TheHermit {
     opacity: 1;
 }
-
 #Bilbo {
     opacity: 1;
 }
@@ -172,14 +153,26 @@ nav a:hover::before {
     display: flex;
     justify-content: center;
 }
-
 #close {
     height: 4.5vw;
     margin: 5vw;
     opacity: 1;
     display: flex;
 }
-
+#left {
+    height: 4.5vw;
+    margin: 5vw;
+    opacity: 1;
+    display: none;
+    float: left;
+}
+#right {
+    height: 4.5vw;
+    margin: 5vw;
+    opacity: 1;
+    display: none;
+    float: right;
+}
 #preview {
     height: 0vw;
     width: 0vw;
@@ -189,12 +182,10 @@ nav a:hover::before {
     background-size: 70%;
     transition: 1s;
 }
-
 #VideoContainer {
     display: flex;
     justify-content: center;
 }
-
 #video {
     height: 0vw;
     width: 0vw;
@@ -203,7 +194,6 @@ nav a:hover::before {
     transition: 1s;
     display: block;
 }
-
 #buttons {
     display: flex;
     flex-direction: column;
@@ -214,7 +204,6 @@ nav a:hover::before {
     padding-top: 24vw;
     padding-bottom: 5%;
 }
-
 #restored {
     background-color: #92bde7;
     height: 3vw;
@@ -226,7 +215,6 @@ nav a:hover::before {
     text-align: center;
     align-items: center;
 }
-
 #original {
     background-color: white;
     height: 3vw;
@@ -238,11 +226,69 @@ nav a:hover::before {
     text-align: center;
     align-items: center;
 }
-
+#dots {
+    display: none;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    top: 29vw;
+}
+.dots {
+    margin: 1vw;
+    transition: .5s;
+}
+#dot1 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot2 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot3 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot4 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot5 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot6 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+#dot7 {
+    height: 1vw;
+    width: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.5);
+}
 #description {
     display: none;
 }
-
 #ProjectTitle {
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -253,7 +299,6 @@ nav a:hover::before {
     justify-content: center;
     transition: 1s;
 }
-
 #ProjectDescription {
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -268,52 +313,42 @@ nav a:hover::before {
     background-color: #333333;
     position: relative;
 }
-
 .linkedinBN {
     width: 45px;
     height: 45px;
 }
-
 .youtubeBN {
     width: 45px;
     height: 45px;
 }
-
 .instagramBN {
     width: 45px;
     height: 45px;
 }
-
 .twitterBN {
     width: 45px;
     height: 45px;
 }
-
 .iconRow {
     display: flex;
     justify-content: center;
     height: 93px;
 
 }
-
 #icons {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-
-
 @media screen and (max-width: 850px){
     
     .TopIcons {
         display: none;
-    }
-    
+    }   
     nav {
         float: none;
     }
-    
     nav a {
         text-align: center;
         font-size: 12pt;
