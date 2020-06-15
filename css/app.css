@@ -123,6 +123,12 @@ nav a:hover::before {
     font-size: 1.7vw;
 }
 
+.PSdescription {
+    padding-top: 2.5vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+
 .profileContainer {
     display: flex;
     flex-direction: row;
@@ -133,6 +139,8 @@ nav a:hover::before {
 }
 
 .profileImg {
+    height: 33vw;
+    width: 33vw;
     padding-top: 45px;
     padding-bottom: 45px;
     padding-left: 5vw;
@@ -211,8 +219,10 @@ nav a:hover::before {
     }
     
     .profileImg {
+        height: 50vw;
         width: 50vw;
-        padding-bottom: 0
+        padding-bottom: 0;
+        padding-top: 0;
     }
     .name {
         font-family: 'Raleway', sans-serif;
@@ -233,12 +243,20 @@ nav a:hover::before {
     .description {
         font-family: 'Raleway', sans-serif;
         font-size: 1.7vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .PSdescription {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
     }
    
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 850px){
     .bottomNav {
         display: none;
         background-color: #333333;
