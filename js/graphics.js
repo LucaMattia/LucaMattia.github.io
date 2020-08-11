@@ -9,9 +9,7 @@ var MyWorld = document.querySelector("#MyWorld"),
     Miles = document.querySelector("#Miles"),
     OldPhoto = document.querySelector("#OldPhoto"),
     Zombies = document.querySelector("#Zombies"),
-    Jesus = document.querySelector("#Jesus"),
-    TheHermit = document.querySelector("#TheHermit"),
-    Bilbo = document.querySelector("#Bilbo");
+    WestPoint = document.querySelector("#WestPoint");
 
 
 // PROJECT VIEW //
@@ -19,11 +17,22 @@ var MyWorld = document.querySelector("#MyWorld"),
 var preview = document.querySelector("#preview"),
     PreviewContainer = document.querySelector("#PreviewContainer"),
     close = document.querySelector("#close"),
+    left = document.querySelector("#left"),
+    right = document.querySelector("#right"),
     buttons = document.querySelector("#buttons"),
     original = document.querySelector("#original"),
     restored = document.querySelector("#restored");
 
 var video = document.querySelector("#video");
+
+var dots = document.querySelector("#dots"),
+    dot1 = document.querySelector("#dot1"),
+    dot2 = document.querySelector("#dot2"),
+    dot3 = document.querySelector("#dot3"),
+    dot4 = document.querySelector("#dot4"),
+    dot5 = document.querySelector("#dot5"),
+    dot6 = document.querySelector("#dot6"),
+    dot7 = document.querySelector("#dot7");
 
 // DESCRIPTION //
 
@@ -287,6 +296,42 @@ Zombies.addEventListener("click", function(){
 });
 
 
+// WEST POINT HOTEL //
+
+WestPoint.addEventListener("mouseover", function(){
+    WestPoint.style.opacity = 0.5;
+});
+WestPoint.addEventListener("mouseout", function(){
+    WestPoint.style.opacity = 1;
+});
+
+WestPoint.addEventListener("click", function(){
+    preview.style.height = "83vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "url(../images/UX:UI/WestPoint02.png)";
+    preview.style.backgroundSize = "70%";
+    video.src = "";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "West Point Hotel";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "Land of the Dead is a TV series poster that I created using Adobe Photoshop.  It is inspired by the Walking Dead and several other classic zombie movies.  In this project I used several different photos, vector smart objects, layer styles, and blending modes.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    left.style.display = "flex";
+    right.style.display = "flex";
+    dots.style.display = "flex";
+    close.style.display = "flex";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+WestPoint.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        dot1.style.transform = "scale(1)";
+    }
+});
+
+
 // CLOSE PREVIEW //
 
 close.addEventListener("click", function(){
@@ -298,6 +343,15 @@ close.addEventListener("click", function(){
     video.src = "";
     buttons.style.display = "none";
     close.style.display = "none";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
+    dot1.style.transform = "scale(0.5)";
+    dot2.style.transform = "scale(0.5)";
+    dot3.style.transform = "scale(0.5)";
+    dot4.style.transform = "scale(0.5)";
+    dot5.style.transform = "scale(0.5)";
+    dot6.style.transform = "scale(0.5)";
     ProjectTitle.style.fontSize = "0vw";
     ProjectDescription.style.fontSize = "0vw";
     description.style.display = "none";
@@ -308,4 +362,20 @@ close.addEventListener("mouseover", function(){
 });
 close.addEventListener("mouseout", function(){
     close.style.opacity = 1;
+});
+
+// LEFT & RIGHT ICON PREVIEW //
+
+right.addEventListener("mouseover", function(){
+    right.style.opacity = 0.5;
+});
+right.addEventListener("mouseout", function(){
+    right.style.opacity = 1;
+});
+
+left.addEventListener("mouseover", function(){
+    left.style.opacity = 0.5;
+});
+left.addEventListener("mouseout", function(){
+    left.style.opacity = 1;
 });

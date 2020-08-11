@@ -15,7 +15,6 @@ var preview = document.querySelector("#preview"),
     close = document.querySelector("#close"),
     left = document.querySelector("#left"),
     right = document.querySelector("#right"),
-    buttons = document.querySelector("#buttons"),
     original = document.querySelector("#original"),
     restored = document.querySelector("#restored");
 
@@ -59,7 +58,6 @@ Eagleson.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "Eagleson Properties is a local property management company that I had the pleasure of working as an intern with.  My job was to film exterior drone footage of properties and interior footage with a DSLR camera. I would then edit all of the shots in Adobe Premiere adding transitions, music and text. I really enjoyed capturing footage of the properties and displaying all of the small details that make each home unique and welcoming. My supervisors at Eagleson were delighted with the end result and had many positive things to say about my enthusiasm, self reliance and the quality of my work.";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     left.style.display = "flex";
     right.style.display = "flex";
@@ -98,7 +96,6 @@ QuestVitamins.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "Quest Vitamins is local natual health products brand that was seeking a promotional video for use in expanding their overseas market.  For this project, I attended the Canadian Health Food Association Trade Show and interviewed and filmed Quest's key personnel, clients, and business partners.  I then created a storyline and used archival photographs as well as the footage that I captured from the convention to show the past, present, and future of the brand. I incorperated text animations and captions using Adobe After Effects and edited the final product in Adobe Premiere. Additionally, I wrote and recorded original music to accompany the video.";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -127,7 +124,6 @@ TheDrive.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "The Drive Coffee Bar on Commercial Drive and 1st Avenue is a great local coffee bar owned by Kenny Vannucci. The bar has a really interesting story and it was a pleasure creating this mini documentary for Kenny explaining the origins of this wonderfully unique and successful neighborhood bar.  For this project, I filmed and interviewed Kenny at the bar and edited the final product in Adobe Premiere.  I used original photos along with photos that can be found on their website.  Be sure to stop by for a cup of coffee!";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -155,7 +151,6 @@ Jesus.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "This was the first instance in which I incorperated motion graphics into my illustrations.  For this project, we were tasked with creating characters and giving them movement.  This is an alternative take on the famous biblical story of Jesus walking on water.  In this story, he uses the power of music to calm the storm.  I created the graphics for this project in Adobe Illustrator and added animations using Adobe After Effects.";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -182,7 +177,6 @@ TheHermit.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "This is the story of a Hermit who lives in the wilderness.  He enjoys the simple things in life like watering his plants, playing music and writing stories.  I decided to animate one of my Adobe Illustrator projects 'My World' because there were so many elements such as the trees and the river that had the potential to be very interesting in an animated environment.  ";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -209,7 +203,6 @@ Bilbo.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "This project was inspired by my love for the Lord of the Rings.  We were tasked with creating an animation that incorperated the use of a map with a shape or figure moving from one point to another.  I decided to take this one step further and tell the story of Bilbo Baggin's journey across Middle Earth.  For this project I used Adobe Illustrator to create the vector graphics and Adobe After Effects for the animations.";
     ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -224,7 +217,6 @@ close.addEventListener("click", function(){
     video.style.height = "0vw";
     video.style.width = "0vw";
     video.src = "";
-    buttons.style.display = "none";
     close.style.display = "none";
     left.style.display = "none";
     right.style.display = "none";
