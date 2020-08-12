@@ -273,6 +273,13 @@ right.addEventListener("click", function(){
     }
 });
 
+left.addEventListener("mouseover", function(){
+    left.style.opacity = 0.5;
+});
+left.addEventListener("mouseout", function(){
+    left.style.opacity = 1;
+});
+
 left.addEventListener("click", function(){
     if (video.src == "https://www.youtube.com/embed/Sl9DKIpOb7U"){
         video.src = "https://www.youtube.com/embed/lvpOJ8oQoCo"
@@ -294,13 +301,6 @@ left.addEventListener("click", function(){
     } else {
         video.src = "https://www.youtube.com/embed/Sl9DKIpOb7U"
     }
-});
-
-left.addEventListener("mouseover", function(){
-    left.style.opacity = 0.5;
-});
-left.addEventListener("mouseout", function(){
-    left.style.opacity = 1;
 });
 
 right.addEventListener("click", function(){

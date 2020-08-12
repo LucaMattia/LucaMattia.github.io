@@ -315,7 +315,7 @@ WestPoint.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "West Point Hotel";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "Land of the Dead is a TV series poster that I created using Adobe Photoshop.  It is inspired by the Walking Dead and several other classic zombie movies.  In this project I used several different photos, vector smart objects, layer styles, and blending modes.";
+    ProjectDescription.innerHTML = "";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     left.style.display = "flex";
@@ -373,9 +373,105 @@ right.addEventListener("mouseout", function(){
     right.style.opacity = 1;
 });
 
+right.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint03.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint03.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint04.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint04.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint05.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint05.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint06.png")' 
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint06.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint07.png")'
+    } else {
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint02.png")'
+    }
+});
+
 left.addEventListener("mouseover", function(){
     left.style.opacity = 0.5;
 });
 left.addEventListener("mouseout", function(){
     left.style.opacity = 1;
+});
+
+left.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint07.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint07.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint06.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint06.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint05.png")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint05.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint04.png")' 
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint04.png")'){
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint03.png")'
+    } else {
+        preview.style.backgroundImage = 'url("../images/UX:UI/WestPoint02.png")'
+    }
+});
+
+// CHANGING DOTS //
+
+right.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint03.png")'){
+        dot1.style.transform = "scale(0.5)";
+        dot2.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint04.png")'){
+        dot2.style.transform = "scale(0.5)";
+        dot3.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint05.png")'){
+        dot3.style.transform = "scale(0.5)";
+        dot4.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint06.png")'){
+        dot4.style.transform = "scale(0.5)";
+        dot5.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint07.png")'){
+        dot5.style.transform = "scale(0.5)";
+        dot6.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        dot6.style.transform = "scale(0.5)";
+        dot1.style.transform = "scale(1)";
+    }
+});
+
+left.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint07.png")'){
+        dot1.style.transform = "scale(0.5)";
+        dot6.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint06.png")'){
+        dot6.style.transform = "scale(0.5)";
+        dot5.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint05.png")'){
+        dot5.style.transform = "scale(0.5)";
+        dot4.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint04.png")'){
+        dot4.style.transform = "scale(0.5)";
+        dot3.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint03.png")'){
+        dot3.style.transform = "scale(0.5)";
+        dot2.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        dot2.style.transform = "scale(0.5)";
+        dot1.style.transform = "scale(1)";
+    }
 });
