@@ -9,7 +9,8 @@ var MyWorld = document.querySelector("#MyWorld"),
     Miles = document.querySelector("#Miles"),
     OldPhoto = document.querySelector("#OldPhoto"),
     Zombies = document.querySelector("#Zombies"),
-    WestPoint = document.querySelector("#WestPoint");
+    WestPoint = document.querySelector("#WestPoint"),
+    DigiMenu = document.querySelector("#DigiMenu");
 
 
 // PROJECT VIEW //
@@ -315,12 +316,9 @@ WestPoint.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "West Point Hotel";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "";
+    ProjectDescription.innerHTML = "For this group project, which was to create a WordPress website for a hotel, my job was to design the hotel restaurant's menu.  I have worked in the restaurant business for a number of years and know what a well designed menu looks like.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
-    left.style.display = "flex";
-    right.style.display = "flex";
-    dots.style.display = "flex";
     close.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -329,6 +327,32 @@ WestPoint.addEventListener("click", function(){
     if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
         dot1.style.transform = "scale(1)";
     }
+});
+
+// DIGIMENU //
+
+DigiMenu.addEventListener("mouseover", function(){
+    DigiMenu.style.opacity = 0.5;
+});
+DigiMenu.addEventListener("mouseout", function(){
+    DigiMenu.style.opacity = 1;
+});
+
+DigiMenu.addEventListener("click", function(){
+    preview.style.height = "83vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "url(../images/UX:UI/DigiMenuPreview.png)";
+    preview.style.backgroundSize = "70%";
+    video.src = "";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "DigiMenu";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
 
