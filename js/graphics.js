@@ -57,7 +57,6 @@ MyWorld.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/VectorGraphics/MyWorld02.png)";
     preview.style.backgroundSize = "70%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "45vw";
     ProjectTitle.innerHTML = "My World";
@@ -65,6 +64,10 @@ MyWorld.addEventListener("click", function(){
     ProjectDescription.innerHTML = "For this assignment, we were given very simple and open instructions; to create an illustration of our own world.  I love this type of project because it allows so much room for creativity, vision and self expression.  I thought about all of the environments and scenarios that I find myself daydreaming about.  In this world you will find a few of my favourite things; nature, music, plants, animals, architecture, water and blue skies.  I created this using Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -84,7 +87,6 @@ GibsonES355.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/VectorGraphics/Gibson35502.png)"
     preview.style.backgroundSize = "45%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "55vw";
     ProjectTitle.innerHTML = "Gibson ES-355";
@@ -92,6 +94,10 @@ GibsonES355.addEventListener("click", function(){
     ProjectDescription.innerHTML = "This project really took my digital art skills to the next level.  For this assignment, we were suppose to illustrate a three dimensional object of our choosing that had curves, angles and shadows.  I decided to illustrate one of my most prized possesions, my Gibson ES-355 guitar.  One of my objectives in creating this image was to accurately recreate all of the intricate details of the guitar such as the gold hardware, the silver inlays, the strings, and the sound holes.  I was quite pleased that the final result succeeded in capturing the essence and beauty of the guitar.  This was created using Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -111,7 +117,6 @@ SmilinBuddha.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/VectorGraphics/SmilinBuddha02.png)"
     preview.style.backgroundSize = "70%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "45vw";
     ProjectTitle.innerHTML = "Smilin' Buddha";
@@ -119,6 +124,10 @@ SmilinBuddha.addEventListener("click", function(){
     ProjectDescription.innerHTML = "This was the very first project that I created using Adobe Illustrator.  For this assignment, we were given several grayscale images and were required to trace over them to create a digital graphic. I found the process very calming and therapeutic as I listened to music while working on it.  The final result is an accurate representation of how I felt during the process of creating this piece; very tranquil.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -138,7 +147,6 @@ SwissStyle.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/VectorGraphics/SwissStyle02.png)"
     preview.style.backgroundSize = "45%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "50vw";
     ProjectTitle.innerHTML = "Swiss Style Poster";
@@ -146,6 +154,10 @@ SwissStyle.addEventListener("click", function(){
     ProjectDescription.innerHTML = "This swiss style poster was the project that introduced me to the use of text in a design. I used the 'paragraph styles' tool to make the workflow more consistent and efficient.  During the process of creating this poster, I learned the importance of text hierarchy in giving structure and displaying the order of importance of information to the reader.  This project was created in Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -165,7 +177,6 @@ Fishies.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/VectorGraphics/Fishies02.png)"
     preview.style.backgroundSize = "70%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "45vw";
     ProjectTitle.innerHTML = "Fishies";
@@ -173,6 +184,10 @@ Fishies.addEventListener("click", function(){
     ProjectDescription.innerHTML = "This was a colouring exercise that allowed me to implement the use of gradients and swatches in a design.  Using swatches is a very efficient way of working with different colour palettes because you can save them and access them instantly.  This project was created in Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -198,8 +213,11 @@ JamRoom.addEventListener("click", function(){
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "For this project involving interactive web development, I illustrated some instruments and replicated my music studio space.  In the actual web page, when you click on each instrument, music will play and an information box will appear with a short description of the item.  I created this project using Adobe Illustrator and coded the web page using HTML, CSS, and Javascript.";
     ProjectDescription.style.fontSize = "1.5vw";
-    close.style.display = "flex";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -219,7 +237,6 @@ Miles.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/PhotoEditing/MilesDavis02.png)"
     preview.style.backgroundSize = "45%";
     video.src = "";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "65vw";
     ProjectTitle.innerHTML = "Miles Davis";
@@ -227,6 +244,10 @@ Miles.addEventListener("click", function(){
     ProjectDescription.innerHTML = "I created this Miles Davis portrait using the paint tool in Adobe Photoshop.  This is one of my favourite graphic design projects that I have completed thus far, not only because I successfully executed my vision, but because it was a joy to create.  I really wanted to capture the attitude and personality that Miles shows in the original photo.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -246,14 +267,17 @@ OldPhoto.addEventListener("click", function(){
     preview.style.backgroundImage = "url(../images/PhotoEditing/PhotoRestoration02.png)"
     preview.style.backgroundSize = "70%";
     video.src = "";
-    buttons.style.display = "flex";
-    close.style.display = "flex";
     description.style.display = "block";
     description.style.paddingTop = "0vh";
     ProjectTitle.innerHTML = "Photo Editing";
     ProjectTitle.style.fontSize = "5vw";
     ProjectDescription.innerHTML = "This project was created using Adobe Photoshop.  More specifically, the tool that I used was the clone stamp tool.  I really enjoyed working on this project because it felt very rewarding to bring an old photo back to life. Be sure to check out the original image prior to the restoration by cicking on the button.";
     ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "flex";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -293,6 +317,9 @@ Zombies.addEventListener("click", function(){
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -307,7 +334,7 @@ WestPoint.addEventListener("mouseout", function(){
 });
 
 WestPoint.addEventListener("click", function(){
-    preview.style.height = "83vw";
+    preview.style.height = "70vw";
     preview.style.width = "94vw";
     preview.style.backgroundImage = "url(../images/UX:UI/WestPoint02.png)";
     preview.style.backgroundSize = "70%";
@@ -316,10 +343,13 @@ WestPoint.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "West Point Hotel";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "For this group project, which was to create a WordPress website for a hotel, my job was to design the hotel restaurant's menu.  I have worked in the restaurant business for a number of years and know what a well designed menu looks like.";
+    ProjectDescription.innerHTML = "The objective of this group project was to create a WordPress website for a hotel. My responsibility was to design the hotel restaurant's menu.  Having worked at restaurants for a number of years, I was familiar with what a well-designed menu should look like. In terms of the design principles for this menu, I was really thinking about the old phrase 'you eat with your eyes first'.  This is why I decided to include large, high quality and very appetizing photos of some of the dishes on the menu.  For the typography I kept it simple and elegant, trying to capture the mood and atmosphere of the hotel itself.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
+    left.style.display = "flex";
+    right.style.display = "flex";
+    dots.style.display = "flex";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -339,7 +369,7 @@ DigiMenu.addEventListener("mouseout", function(){
 });
 
 DigiMenu.addEventListener("click", function(){
-    preview.style.height = "83vw";
+    preview.style.height = "68vw";
     preview.style.width = "94vw";
     preview.style.backgroundImage = "url(../images/UX:UI/DigiMenuPreview.png)";
     preview.style.backgroundSize = "70%";
@@ -348,10 +378,13 @@ DigiMenu.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "DigiMenu";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "";
+    ProjectDescription.innerHTML = "DigiMenu is a digital restaurant menu application that I designed for a group project. The function of the app is to allow customers to scan a bar code with their phone to access a digital menu.  This menu would allow users to view pictures of all the items on the menu to get a better idea of what they would like to order.  For restaurant owners, the app allows them to customize a menu and to access analytics such as the number of times an item has been ordered, the number of scans, and the total profit. I made these high fidelity prototypes in Adobe Illustrator and then transferred them to Invision so that our group could perform user testing.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
