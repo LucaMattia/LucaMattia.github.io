@@ -56,7 +56,7 @@ Eagleson.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "Eagleson Properties";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "Eagleson Properties is a local property management company that I had the pleasure of working as an intern with.  My job was to film exterior drone footage of properties and interior footage with a DSLR camera. I would then edit all of the shots in Adobe Premiere adding transitions, music and text. I really enjoyed capturing footage of the properties and displaying all of the small details that make each home unique and welcoming. My supervisors at Eagleson were delighted with the end result and had many positive things to say about my enthusiasm, self reliance and the quality of my work.";
+    ProjectDescription.innerHTML = "Eagleson Properties is a local property management company that I had the pleasure of working as an intern with.  My job was to film exterior drone footage of properties and interior footage with a DSLR camera. I would then edit all the shots in Adobe Premiere adding transitions, music and text. I really enjoyed capturing footage of the properties and displaying all the small details that make each home unique and welcoming. My supervisors at Eagleson were delighted with the end result and had many positive things to say about my enthusiasm, self reliance and the quality of my work.";
     ProjectDescription.style.fontSize = "1.5vw";
     close.style.display = "flex";
     left.style.display = "flex";
@@ -94,7 +94,7 @@ QuestVitamins.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "Quest Vitamins";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "Quest Vitamins is local natual health products brand that was seeking a promotional video for use in expanding their overseas market.  For this project, I attended the Canadian Health Food Association Trade Show and interviewed and filmed Quest's key personnel, clients, and business partners.  I then created a storyline and used archival photographs as well as the footage that I captured from the convention to show the past, present, and future of the brand. I incorperated text animations and captions using Adobe After Effects and edited the final product in Adobe Premiere. Additionally, I wrote and recorded original music to accompany the video.";
+    ProjectDescription.innerHTML = "Quest Vitamins is local natural health products brand that was seeking a promotional video for use in expanding their overseas market.  For this project, I attended the Canadian Health Food Association Trade Show and interviewed and filmed Quest's key personnel, clients, and business partners.  I then created a storyline and used archival photographs as well as the footage that I captured from the convention to show the past, present, and future of the brand. I incorporated text animations and captions using Adobe After Effects and edited the final product in Adobe Premiere. Additionally, I wrote and recorded original music to accompany the video.";
     ProjectDescription.style.fontSize = "1.5vw";
     close.style.display = "flex";
     left.style.display = "none";
@@ -155,7 +155,7 @@ Jesus.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "Walking on Water";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "This was the first instance in which I incorperated motion graphics into my illustrations.  For this project, we were tasked with creating characters and giving them movement.  This is an alternative take on the famous biblical story of Jesus walking on water.  In this story, he uses the power of music to calm the storm.  I created the graphics for this project in Adobe Illustrator and added animations using Adobe After Effects.";
+    ProjectDescription.innerHTML = "This was the first instance in which I incorporated motion graphics into my illustrations.  For this project, we were tasked with creating characters and giving them movement.  This is an alternative take on the famous biblical story of Jesus walking on water.  In this story, he uses the power of music to calm the storm.  I created the graphics for this project in Adobe Illustrator and added animations using Adobe After Effects.";
     ProjectDescription.style.fontSize = "1.5vw";
     close.style.display = "flex";
     left.style.display = "none";

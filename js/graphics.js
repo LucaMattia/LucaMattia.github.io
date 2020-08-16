@@ -61,7 +61,7 @@ MyWorld.addEventListener("click", function(){
     description.style.paddingTop = "45vw";
     ProjectTitle.innerHTML = "My World";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "For this assignment, we were given very simple and open instructions; to create an illustration of our own world.  I love this type of project because it allows so much room for creativity, vision and self expression.  I thought about all of the environments and scenarios that I find myself daydreaming about.  In this world you will find a few of my favourite things; nature, music, plants, animals, architecture, water and blue skies.  I created this using Adobe Illustrator.";
+    ProjectDescription.innerHTML = "For this assignment, we were given very simple and open instructions; to create an illustration of our own world.  I love this type of project because it allows so much room for creativity, vision, and self expression.  I thought about all of the environments and scenarios that I find myself daydreaming about.  In this world you will find a few of my favourite things; nature, music, plants, animals, architecture, water and blue skies.  I created this using Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
@@ -91,7 +91,7 @@ GibsonES355.addEventListener("click", function(){
     description.style.paddingTop = "55vw";
     ProjectTitle.innerHTML = "Gibson ES-355";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "This project really took my digital art skills to the next level.  For this assignment, we were suppose to illustrate a three dimensional object of our choosing that had curves, angles and shadows.  I decided to illustrate one of my most prized possesions, my Gibson ES-355 guitar.  One of my objectives in creating this image was to accurately recreate all of the intricate details of the guitar such as the gold hardware, the silver inlays, the strings, and the sound holes.  I was quite pleased that the final result succeeded in capturing the essence and beauty of the guitar.  This was created using Adobe Illustrator.";
+    ProjectDescription.innerHTML = "This project really took my digital art skills to the next level.  For this assignment, we were supposed to illustrate a three dimensional object of our choosing that had curves, angles and shadows.  I decided to illustrate one of my most prized possessions, my Gibson ES-355 guitar.  One of my objectives in creating this image was to accurately recreate all the intricate details of the guitar such as the gold hardware, the silver inlays, the strings, and the sound holes.  I was quite pleased that the final result succeeded in capturing the essence and beauty of the guitar.  This was created using Adobe Illustrator.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
@@ -211,7 +211,7 @@ JamRoom.addEventListener("click", function(){
     description.style.paddingTop = "45vw";
     ProjectTitle.innerHTML = "Jam Room";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "For this project involving interactive web development, I illustrated some instruments and replicated my music studio space.  In the actual web page, when you click on each instrument, music will play and an information box will appear with a short description of the item.  I created this project using Adobe Illustrator and coded the web page using HTML, CSS, and Javascript.";
+    ProjectDescription.innerHTML = "For this project involving interactive web development, I illustrated some instruments and replicated my music studio space.  In the actual web page, when you click on each instrument, music will play, and an information box will appear with a short description of the item.  I created this project using Adobe Illustrator and coded the web page using HTML, CSS, and JavaScript.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";
@@ -271,7 +271,7 @@ OldPhoto.addEventListener("click", function(){
     description.style.paddingTop = "0vh";
     ProjectTitle.innerHTML = "Photo Editing";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "This project was created using Adobe Photoshop.  More specifically, the tool that I used was the clone stamp tool.  I really enjoyed working on this project because it felt very rewarding to bring an old photo back to life. Be sure to check out the original image prior to the restoration by cicking on the button.";
+    ProjectDescription.innerHTML = "This project was created using Adobe Photoshop.  More specifically, the tool that I used was the clone stamp tool.  I really enjoyed working on this project because it felt very rewarding to bring an old photo back to life. Be sure to check out the original image prior to the restoration by clicking on the button.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "flex";
     close.style.display = "flex";
@@ -343,7 +343,7 @@ WestPoint.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "West Point Hotel";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "The objective of this group project was to create a WordPress website for a hotel. My responsibility was to design the hotel restaurant's menu.  Having worked at restaurants for a number of years, I was familiar with what a well-designed menu should look like. In terms of the design principles for this menu, I was really thinking about the old phrase 'you eat with your eyes first'.  This is why I decided to include large, high quality and very appetizing photos of some of the dishes on the menu.  For the typography I kept it simple and elegant, trying to capture the mood and atmosphere of the hotel itself.";
+    ProjectDescription.innerHTML = "The objective of this group project was to create a WordPress website for a hotel. My responsibility was to design the hotel restaurant's menu.  Having worked at restaurants for a number of years, I was familiar with what a well-designed menu should look like. In terms of the design principles for this menu, I was really thinking about the old phrase: 'you eat with your eyes first', which is why I decided to include large, high quality, and very appetizing photos of some of the dishes on the menu.  For the typography I kept it simple and elegant, trying to capture the mood and atmosphere of the hotel itself.";
     ProjectDescription.style.fontSize = "1.5vw";
     buttons.style.display = "none";
     close.style.display = "flex";

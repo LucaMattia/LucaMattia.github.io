@@ -10,7 +10,7 @@ linkedin.addEventListener("click", function(){
 });
 
 youtube.addEventListener("click", function(){
-    window.open("https://www.youtube.com/user/1970srocknroll");
+    window.open("https://www.youtube.com/channel/UC62uxamVlJOzAfYUhdNXJnw");
 });
 
 insta.addEventListener("click", function(){
@@ -33,7 +33,7 @@ linkedinB.addEventListener("click", function(){
 });
 
 youtubeB.addEventListener("click", function(){
-    window.open("https://www.youtube.com/user/1970srocknroll");
+    window.open("https://www.youtube.com/channel/UC62uxamVlJOzAfYUhdNXJnw");
 });
 
 instaB.addEventListener("click", function(){
