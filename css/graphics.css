@@ -23,7 +23,6 @@ header::after {
 }
 nav {
     float: left;
-    
 }
 nav ul {
     margin: 0;
@@ -67,7 +66,7 @@ nav a:hover::before {
     position: absolute;
     top: 0px;
     right: 0px;
-    padding-right: 2vw;
+    padding-right: 5vw;
     padding-top: 2.5vh;
 }
 .linkedin {
