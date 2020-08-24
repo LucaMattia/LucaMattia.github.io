@@ -3,9 +3,11 @@
 var MyWorld = document.querySelector("#MyWorld"),
     GibsonES355 = document.querySelector("#GibsonES355"),
     SmilinBuddha = document.querySelector("#SmilinBuddha"),
-    SwissStyle = document.querySelector("#SwissStyle"),
     Fishies = document.querySelector("#Fishies"),
     JamRoom = document.querySelector("#JamRoom"),
+    SwissStyle = document.querySelector("#SwissStyle"),
+    Bowie = document.querySelector("#Bowie"),
+    BeachBoys = document.querySelector("#BeachBoys"),
     Miles = document.querySelector("#Miles"),
     OldPhoto = document.querySelector("#OldPhoto"),
     Zombies = document.querySelector("#Zombies"),
@@ -20,6 +22,8 @@ var preview = document.querySelector("#preview"),
     close = document.querySelector("#close"),
     left = document.querySelector("#left"),
     right = document.querySelector("#right"),
+    left2 = document.querySelector("#left2"),
+    right2 = document.querySelector("#right2"),
     buttons = document.querySelector("#buttons"),
     original = document.querySelector("#original"),
     restored = document.querySelector("#restored");
@@ -67,6 +71,8 @@ MyWorld.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -97,6 +103,8 @@ GibsonES355.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -127,36 +135,8 @@ SmilinBuddha.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
-    dots.style.display = "none";
-    window.scrollTo({ top: 311, behavior: 'smooth' });
-});
-
-
-// SWISS STYLE //
-
-SwissStyle.addEventListener("mouseover", function(){
-    SwissStyle.style.opacity = 0.5;
-});
-SwissStyle.addEventListener("mouseout", function(){
-    SwissStyle.style.opacity = 1;
-});
-
-SwissStyle.addEventListener("click", function(){
-    preview.style.height = "85vw";
-    preview.style.width = "94vw";
-    preview.style.backgroundImage = "url(../images/VectorGraphics/SwissStyle02.png)"
-    preview.style.backgroundSize = "45%";
-    video.src = "";
-    description.style.display = "block";
-    description.style.paddingTop = "50vw";
-    ProjectTitle.innerHTML = "Swiss Style Poster";
-    ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "This swiss style poster was the project that introduced me to the use of text in a design. I used the 'paragraph styles' tool to make the workflow more consistent and efficient.  During the process of creating this poster, I learned the importance of text hierarchy in giving structure and displaying the order of importance of information to the reader.  This project was created in Adobe Illustrator.";
-    ProjectDescription.style.fontSize = "1.5vw";
-    buttons.style.display = "none";
-    close.style.display = "flex";
-    left.style.display = "none";
-    right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -187,6 +167,8 @@ Fishies.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -217,8 +199,111 @@ JamRoom.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+
+// SWISS STYLE //
+
+SwissStyle.addEventListener("mouseover", function(){
+    SwissStyle.style.opacity = 0.5;
+});
+SwissStyle.addEventListener("mouseout", function(){
+    SwissStyle.style.opacity = 1;
+});
+
+SwissStyle.addEventListener("click", function(){
+    preview.style.height = "85vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "url(../images/Typography/SwissStyle01.png)"
+    preview.style.backgroundSize = "45%";
+    video.src = "";
+    description.style.display = "block";
+    description.style.paddingTop = "50vw";
+    ProjectTitle.innerHTML = "Swiss Style Poster";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "This swiss style poster was the project that introduced me to the use of typography in a design. I used the 'paragraph styles' tool to make the workflow more consistent and efficient.  During the process of creating this poster, I learned the importance of text hierarchy in giving structure and displaying the order of importance of information to the reader.  This project was created in Adobe Illustrator.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
+    dots.style.display = "none";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+
+// BOWIE //
+
+Bowie.addEventListener("mouseover", function(){
+    Bowie.style.opacity = 0.5;
+});
+Bowie.addEventListener("mouseout", function(){
+    Bowie.style.opacity = 1;
+});
+
+Bowie.addEventListener("click", function(){
+    preview.style.height = "85vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "url(../images/Typography/DavidBowieFashion01.png)"
+    preview.style.backgroundSize = "45%";
+    video.src = "";
+    description.style.display = "block";
+    description.style.paddingTop = "50vw";
+    ProjectTitle.innerHTML = "David Bowie Fashion Magazine";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "I created this digital David Bowie fashion magazine using Adobe InDesign and Photoshop. For this project, I really wanted to capture the essence of David Bowie and his fashion sense.  I chose a colour palette that was bright and vibrant, and chose fonts that had a vintage but futuristic look to them.  I arranged all of the text and images in InDesign using a grid so that the spacing and dimensions would be appealing to the human eye.  After this process, I imported the project to Photoshop and added a touch of grain to give it a vintage 1970's feel.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+// BEACH BOYS //
+
+BeachBoys.addEventListener("mouseover", function(){
+    BeachBoys.style.opacity = 0.5;
+});
+BeachBoys.addEventListener("mouseout", function(){
+    BeachBoys.style.opacity = 1;
+});
+
+BeachBoys.addEventListener("click", function(){
+    preview.style.height = "80vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "url(../images/Typography/BeachBoysMag01.jpg)";
+    preview.style.backgroundSize = "63%";
+    video.src = "";
+    description.style.display = "block";
+    description.style.paddingTop = "38vw";
+    ProjectTitle.innerHTML = "The Beach Boys Magazine";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "This project gave me the perfect opportunity to display some of the Beach Boys' 1970's albums which are mostly forgotten and rarely discussed among the music world and even their fans. However, I think that some of these albums are no less brilliant than their most popular work. In terms of the design of this digital magazine, I wanted to use fonts and colours that had a vintage 1970's feel.  I cropped and masked pictures of the band and used the same colours and themes of the album of that period.  This gave each page a distinct look that reflected the band during that particular era.  Finally, I imported the pages into Photoshop and added some grain to give the magazine even more of a vintage look.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    buttons.style.display = "none";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    left2.style.display = "flex";
+    right2.style.display = "flex";
+    dots.style.display = "flex";
+    dots.style.top = "37vw";
+    dot7.style.display = "";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+BeachBoys.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag01.jpg")'){
+        dot1.style.transform = "scale(1)";
+    }
 });
 
 
@@ -247,6 +332,8 @@ Miles.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -277,6 +364,8 @@ OldPhoto.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -319,6 +408,8 @@ Zombies.addEventListener("click", function(){
     close.style.display = "flex";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
@@ -350,6 +441,8 @@ WestPoint.addEventListener("click", function(){
     left.style.display = "flex";
     right.style.display = "flex";
     dots.style.display = "flex";
+    dots.style.top = "29vw";
+    dot7.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
 
@@ -402,6 +495,8 @@ close.addEventListener("click", function(){
     close.style.display = "none";
     left.style.display = "none";
     right.style.display = "none";
+    left2.style.display = "none";
+    right2.style.display = "none";
     dots.style.display = "none";
     dot1.style.transform = "scale(0.5)";
     dot2.style.transform = "scale(0.5)";
@@ -409,6 +504,7 @@ close.addEventListener("click", function(){
     dot4.style.transform = "scale(0.5)";
     dot5.style.transform = "scale(0.5)";
     dot6.style.transform = "scale(0.5)";
+    dot7.style.transform = "scale(0.5)";
     ProjectTitle.style.fontSize = "0vw";
     ProjectDescription.style.fontSize = "0vw";
     description.style.display = "none";
@@ -421,7 +517,7 @@ close.addEventListener("mouseout", function(){
     close.style.opacity = 1;
 });
 
-// LEFT & RIGHT ICON PREVIEW //
+// WESTPOINT PROJECT PAGE CHANGE //
 
 right.addEventListener("mouseover", function(){
     right.style.opacity = 0.5;
@@ -477,7 +573,7 @@ left.addEventListener("click", function(){
     }
 });
 
-// CHANGING DOTS //
+// WESTPOINT DOT CHANGE //
 
 right.addEventListener("click", function(){
     if (preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint03.png")'){
@@ -528,6 +624,131 @@ left.addEventListener("click", function(){
         dot2.style.transform = "scale(1)";
     } else if (
         preview.style.backgroundImage == 'url("../images/UX:UI/WestPoint02.png")'){
+        dot2.style.transform = "scale(0.5)";
+        dot1.style.transform = "scale(1)";
+    }
+});
+
+
+// BEACHBOYS PROJECT PAGE CHANGE //
+
+right2.addEventListener("mouseover", function(){
+    right2.style.opacity = 0.5;
+});
+right2.addEventListener("mouseout", function(){
+    right2.style.opacity = 1;
+});
+
+right2.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag01.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag02.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag02.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag03.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag03.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag04.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag04.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag05.jpg")' 
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag05.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag06.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag06.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag07.jpg")'
+    } else {
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag01.jpg")'
+    }
+});
+
+left2.addEventListener("mouseover", function(){
+    left2.style.opacity = 0.5;
+});
+left2.addEventListener("mouseout", function(){
+    left2.style.opacity = 1;
+});
+
+left2.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag01.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag07.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag07.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag06.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag06.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag05.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag05.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag04.jpg")' 
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag04.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag03.jpg")'
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag03.jpg")'){
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag02.jpg")'
+    } else {
+        preview.style.backgroundImage = 'url("../images/Typography/BeachBoysMag01.jpg")'
+    }
+});
+
+right2.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag02.jpg")'){
+        dot1.style.transform = "scale(0.5)";
+        dot2.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag03.jpg")'){
+        dot2.style.transform = "scale(0.5)";
+        dot3.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag04.jpg")'){
+        dot3.style.transform = "scale(0.5)";
+        dot4.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag05.jpg")'){
+        dot4.style.transform = "scale(0.5)";
+        dot5.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag06.jpg")'){
+        dot5.style.transform = "scale(0.5)";
+        dot6.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag07.jpg")'){
+        dot6.style.transform = "scale(0.5)";
+        dot7.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag01.jpg")'){
+        dot7.style.transform = "scale(0.5)";
+        dot1.style.transform = "scale(1)";
+    }
+});
+
+left2.addEventListener("click", function(){
+    if (preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag07.jpg")'){
+        dot1.style.transform = "scale(0.5)";
+        dot7.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag06.jpg")'){
+        dot7.style.transform = "scale(0.5)";
+        dot6.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag05.jpg")'){
+        dot6.style.transform = "scale(0.5)";
+        dot5.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag04.jpg")'){
+        dot5.style.transform = "scale(0.5)";
+        dot4.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag03.jpg")'){
+        dot4.style.transform = "scale(0.5)";
+        dot3.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag02.jpg")'){
+        dot3.style.transform = "scale(0.5)";
+        dot2.style.transform = "scale(1)";
+    } else if (
+        preview.style.backgroundImage == 'url("../images/Typography/BeachBoysMag01.jpg")'){
         dot2.style.transform = "scale(0.5)";
         dot1.style.transform = "scale(1)";
     }
