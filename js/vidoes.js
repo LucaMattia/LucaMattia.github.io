@@ -1,8 +1,10 @@
 // PROJECTS //
 
-var Eagleson = document.querySelector("#Eagleson"),
-    QuestVitamins = document.querySelector("#QuestVitamins"),
+var Misty = document.querySelector("#Misty"),
+    Sleep = document.querySelector("#Sleep"),
     TheDrive = document.querySelector("#TheDrive"),
+    QuestVitamins = document.querySelector("#QuestVitamins"),
+    Eagleson = document.querySelector("#Eagleson"),
     Jesus = document.querySelector("#Jesus"),
     TheHermit = document.querySelector("#TheHermit"),
     Bilbo = document.querySelector("#Bilbo");
@@ -35,6 +37,65 @@ var description = document.querySelector("#description"),
     ProjectTitle = document.querySelector("#ProjectTitle"),
     ProjectDescription = document.querySelector("#ProjectDescription");
 
+// MISTY MOUNTAIN MEDIA //
+
+Misty.addEventListener("mouseover", function(){
+    Misty.style.opacity = 0.5;
+    
+});
+Misty.addEventListener("mouseout", function(){
+    Misty.style.opacity = 1;
+});
+
+Misty.addEventListener("click", function(){
+    preview.style.height = "60vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "";
+    video.style.height = "36.6vw";
+    video.style.width = "65vw";
+    video.src = "https://www.youtube.com/embed/RYPthi123jU";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "Misty Mountain Media";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "This is a trailer video that I filmed and edited for my Instagram page.  I decided to call it Misty Mountain Media because I thought the name reflected the mystical and natural style of my art and music.  My goal for the trailer was to give a rough summary of what Misty Mountain Media is all about; music, nature, art and adventure. ";
+    ProjectDescription.style.fontSize = "1.5vw";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+// SLEEP DEPRIVATION //
+
+Sleep.addEventListener("mouseover", function(){
+    Sleep.style.opacity = 0.5;
+    
+});
+Sleep.addEventListener("mouseout", function(){
+    Sleep.style.opacity = 1;
+});
+
+Sleep.addEventListener("click", function(){
+    preview.style.height = "63vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "";
+    video.style.height = "36.6vw";
+    video.style.width = "65vw";
+    video.src = "https://www.youtube.com/embed/v-qY9T9LiFo";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "Sleep Deprivation";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "Sleep Deprivation is a music video / short film that I filmed and edited for my song of the same name. The song is simply about not being able to sleep, but I wrote it during a period where I was experiencing sleep paralysis.  I wanted to capture some of the visions and experiences that I had during that time, which were quite frightening. The clips were filmed with a VHS filter to give the video more of a dark, grainy and mysterious atmosphere.  I edited everything on Final Cut Pro and recorded some additional music for the soundtrack.";
+    ProjectDescription.style.fontSize = "1.5vw";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
 
 // EAGLESON //
 
