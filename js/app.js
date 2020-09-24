@@ -10,16 +10,13 @@ linkedin.addEventListener("click", function(){
 });
 
 youtube.addEventListener("click", function(){
-    window.open("https://www.youtube.com/channel/UC62uxamVlJOzAfYUhdNXJnw");
+    window.open("https://www.youtube.com/channel/UCjUAAFd0B8C0DQWG4i74Z-w");
 });
 
 insta.addEventListener("click", function(){
-    window.open("https://www.instagram.com/lucamattia3/");
+    window.open("https://www.instagram.com/mistymountainmedia23/");
 });
 
-twitter.addEventListener("click", function(){
-    window.open("https://twitter.com/lucamattia3");
-});
 
 // BOTTOM ICONS
 
@@ -33,14 +30,10 @@ linkedinB.addEventListener("click", function(){
 });
 
 youtubeB.addEventListener("click", function(){
-    window.open("https://www.youtube.com/channel/UC62uxamVlJOzAfYUhdNXJnw");
+    window.open("https://www.youtube.com/channel/UCjUAAFd0B8C0DQWG4i74Z-w");
 });
 
 instaB.addEventListener("click", function(){
-    window.open("https://www.instagram.com/lucamattia3/");
-});
-
-twitterB.addEventListener("click", function(){
-    window.open("https://twitter.com/lucamattia3");
+    window.open("https://www.instagram.com/mistymountainmedia23/");
 });
 
