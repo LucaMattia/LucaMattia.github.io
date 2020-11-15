@@ -2,6 +2,7 @@
 
 var Misty = document.querySelector("#Misty"),
     Sleep = document.querySelector("#Sleep"),
+    ADOT = document.querySelector("#ADOT"),
     TheDrive = document.querySelector("#TheDrive"),
     QuestVitamins = document.querySelector("#QuestVitamins"),
     Eagleson = document.querySelector("#Eagleson"),
@@ -58,7 +59,7 @@ Misty.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "Misty Mountain Media";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "This is a trailer video that I filmed and edited for my Instagram page.  I decided to call it Misty Mountain Media because I thought the name reflected the mystical and natural style of my art and music.  My goal for the trailer was to give a rough summary of what Misty Mountain Media is all about; music, nature, art and adventure. ";
+    ProjectDescription.innerHTML = "This is a trailer video that I filmed and edited for my Instagram page.  I decided to call it Misty Mountain Media because I thought the name reflected the style of my art and music.  My goal for the trailer was to give a rough summary of what Misty Mountain Media is all about; music, nature, art and adventure. ";
     ProjectDescription.style.fontSize = "1.5vw";
     close.style.display = "flex";
     left.style.display = "none";
@@ -88,7 +89,7 @@ Sleep.addEventListener("click", function(){
     description.style.paddingTop = "30vw";
     ProjectTitle.innerHTML = "Sleep Deprivation";
     ProjectTitle.style.fontSize = "5vw";
-    ProjectDescription.innerHTML = "Sleep Deprivation is a music video / short film that I filmed and edited for my song of the same name. The song is simply about not being able to sleep, but I wrote it during a period where I was experiencing sleep paralysis.  I wanted to capture some of the visions and experiences that I had during that time, which were quite frightening. The clips were filmed with a VHS filter to give the video more of a dark, grainy and mysterious atmosphere.  I edited everything on Final Cut Pro and recorded some additional music for the soundtrack.";
+    ProjectDescription.innerHTML = "Sleep Deprivation is a music video/short film that I filmed and edited for my song of the same name. The song is simply about not being able to sleep and I wrote it during a period of time in which I was experiencing sleep paralysis almost every night.  My goal for this music video was to recreate some of the visions and experiences that I had during this time, which were quite frightening. The clips were filmed with a VHS filter to give the video more of a dark, grainy and mysterious atmosphere.  I edited everything in Final Cut Pro and recorded some additional music for the soundtrack.";
     ProjectDescription.style.fontSize = "1.5vw";
     close.style.display = "flex";
     left.style.display = "none";
@@ -96,6 +97,38 @@ Sleep.addEventListener("click", function(){
     dots.style.display = "none";
     window.scrollTo({ top: 311, behavior: 'smooth' });
 });
+
+// A DAY OF TRAINING //
+
+ADOT.addEventListener("mouseover", function(){
+    ADOT.style.opacity = 0.5;
+    
+});
+ADOT.addEventListener("mouseout", function(){
+    ADOT.style.opacity = 1;
+});
+
+ADOT.addEventListener("click", function(){
+    preview.style.height = "63vw";
+    preview.style.width = "94vw";
+    preview.style.backgroundImage = "";
+    video.style.height = "36.6vw";
+    video.style.width = "65vw";
+    video.src = "https://www.youtube.com/embed/cPzCcCqdn6I";
+    description.style.display = "block";
+    description.style.paddingTop = "30vw";
+    ProjectTitle.innerHTML = "A Day of Training";
+    ProjectTitle.style.fontSize = "5vw";
+    ProjectDescription.innerHTML = "A Day of Training is a weekly series of CrossFit training videos that I am currently working on in collaboration with my good friend and CrossFit athlete, Anthony Gnoato. Anthony has been training for 4 years with a goal of one day competing in the CrossFit games.  He has just started training clients online and wanted to start a YouTube series to promote himself and to increase his online presence. I filmed these videos with a GoPro Hero 8 at his home gym and edited the footage on Adobe Premiere.  After starting in October, we already have an audience of nearly 100 subscribers and that number is growing weekly. ";
+    ProjectDescription.style.fontSize = "1.5vw";
+    close.style.display = "flex";
+    left.style.display = "none";
+    right.style.display = "none";
+    dots.style.display = "none";
+    window.scrollTo({ top: 311, behavior: 'smooth' });
+});
+
+
 
 // EAGLESON //
 
