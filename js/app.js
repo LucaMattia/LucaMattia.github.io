@@ -6,7 +6,7 @@ var linkedin = document.querySelector(".linkedin"),
     twitter = document.querySelector(".twitter");
 
 linkedin.addEventListener("click", function(){
-    window.open("https://www.linkedin.com/in/lucamattia/");
+    window.open("https://open.spotify.com/album/6xHOkaqZBucYb3RykDCxTj?si=h1jwhD8ORu--y3VIxoMalA");
 });
 
 youtube.addEventListener("click", function(){
